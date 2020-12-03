@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T05:03:51.092Z" agent="5.0 (Windows)" etag="qESMKVqtKjG7yJmwfghZ" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T08:14:24.378Z" agent="5.0 (Windows)" etag="2yfiTG9j4rXufem9RAJF" version="13.10.4" type="github">
   <diagram id="OSb5CqqazBMSSnV3IDRc" name="Page-1">
     <mxGraphModel dx="2272" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -251,7 +251,7 @@
         <mxCell id="NBSMRc6nEBx8B3KLXw8S-53" value="Update output counter" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="370.5" y="880" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NBSMRc6nEBx8B3KLXw8S-54" value="Update output counter" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="NBSMRc6nEBx8B3KLXw8S-54" value="wait for current transmission end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="485" y="980" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NBSMRc6nEBx8B3KLXw8S-55" value="transmit flag == 0" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NBSMRc6nEBx8B3KLXw8S-54" target="NBSMRc6nEBx8B3KLXw8S-29">
@@ -305,10 +305,11 @@
         <mxCell id="NBSMRc6nEBx8B3KLXw8S-60" value="7 Segement Display output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NBSMRc6nEBx8B3KLXw8S-61" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NBSMRc6nEBx8B3KLXw8S-60">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="NBSMRc6nEBx8B3KLXw8S-61" value="UART Sensor output selection" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NBSMRc6nEBx8B3KLXw8S-60">
+          <mxGeometry x="0.7073" y="-20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="250" as="sourcePoint" />
             <mxPoint x="180" y="290" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NBSMRc6nEBx8B3KLXw8S-62" value="Digit Converter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -322,12 +323,6 @@
         </mxCell>
         <mxCell id="NBSMRc6nEBx8B3KLXw8S-65" value="Segment Calculator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="435" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NBSMRc6nEBx8B3KLXw8S-67" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="400" as="sourcePoint" />
-            <mxPoint x="400" y="350" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
